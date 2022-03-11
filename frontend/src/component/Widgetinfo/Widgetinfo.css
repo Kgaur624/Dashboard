@@ -1,0 +1,29 @@
+.widget{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.widgetItem{
+  flex: 1;
+    margin: 0px,20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+-webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+
+}
+.widgetTitle{
+    font-size: 10px 0px;
+}
+.totalTicketsContainer{
+margin: 10px 0px;
+display: flex;
+align-items: center;
+}
+.totalTickets{
+font-size: 30px;
+font-weight: 600;
+}
