@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "proxy": "http://localhost:4001",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.1",
@@ -13,8 +14,10 @@
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.0",
+    "moment-timezone": "^0.5.34",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-json-parser": "^0.2.1",
     "react-router-dom": "^6.2.2",
     "react-scripts": "^5.0.0",
     "recharts": "^2.1.9",

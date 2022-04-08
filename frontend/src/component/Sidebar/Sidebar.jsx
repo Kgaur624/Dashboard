@@ -48,7 +48,7 @@ export default function Sidebar()
 
 
                 <div className="sidebarMenu">
-                    <h3 className="sidebarTitle">Status</h3>
+                    <h3 className="sidebarTitle">Widgets</h3>
                     <ul className="sidebarList">
                         <li className="sidebarListItem " >
                             <Search className="sidebarIcon" />Search
